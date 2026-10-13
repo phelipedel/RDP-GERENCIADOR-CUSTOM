@@ -126,8 +126,8 @@ meu-gerenciador-rdp/
 
 ```powershell
 # Clone o repositório
-git clone https://github.com/seu-usuario/gerenciador-rdp-windows.git
-cd gerenciador-rdp-windows
+git clone https://github.com/phelipedel/RDP-GERENCIADOR-CUSTOM.git
+cd RDP-GERENCIADOR-CUSTOM
 
 # Instale as dependências
 npm install
