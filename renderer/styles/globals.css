@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    @apply bg-[#F0F0F0] text-[#1E1E1E] antialiased overflow-hidden select-none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}

@@ -1,0 +1,25 @@
+appId: com.gerenciador.rdp
+productName: Conexao de Area de Trabalho Remota
+copyright: Copyright © 2026
+directories:
+  output: dist
+  buildResources: resources
+win:
+  icon: resources/icon.ico
+  target:
+    - target: nsis
+      arch:
+        - x64
+nsis:
+  oneClick: true
+  perMachine: false
+  installerIcon: resources/icon.ico
+  uninstallerIcon: resources/icon.ico
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+      - icone
+      - resources
+publish: null
